@@ -1,0 +1,164 @@
+/* ======= JEFF'S CSS RESET ======= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ========== OUR STYLES ========== */
+b{
+    font-weight: 1500;
+}
+
+li{
+    list-style: none;
+}
+
+
+.semi-imp{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+.myNav{
+    height:4rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.heading{
+    height: 30rem;
+    background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(125,91,166,1));
+    font-family: 'Poppins', sans-serif;
+    /* text-align: center; */
+}
+
+.sphere_logo{
+    width: 20%;
+}
+
+.intro{
+    padding-top: 4rem;
+}
+
+.overview{
+    width:70%;
+    padding-right: 2rem;
+}
+
+.basic-info{
+    width:30%;
+    /* padding-top: 3rem; */
+}
+
+.page-section{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.section-title{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 0.5rem;
+}
+
+.small-point{
+    font-family: 'Mukta', sans-serif;
+    padding-bottom: 0;
+    padding-top:0;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+.ss-point{
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.8rem;
+    padding-bottom: 1.5rem;
+    padding-top:0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.big-point{
+    font-size:2.5rem; 
+    font-family: 'Poppins', sans-serif;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.aspect-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aspect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 35%;
+    padding:1rem;
+}
+
+.textbox{
+    border-radius: 0.7rem;
+    background-color: #DFCFE9;
+    padding: 1.5rem;
+    /* margin-right:3rem; */
+    /* border-left: 2rem; */
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.choice-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* margin:1rem; */
+    width:90%;
+}
+
+.choice{
+    padding-left: 0;
+}
+
+bullet{
+    display: list-item;
+    list-style-type: "\2023";
+    padding-left:0;
+    padding-inline-start: 1ch;
+    margin:0.3rem;
+}

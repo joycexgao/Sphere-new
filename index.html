@@ -1,1 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iterative Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins:wght@300&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top myNav" style="background-color: #06171E;">
+        <a class="navbar-brand" href="#" style="color:rgb(248, 226, 187)">Joyce Gao</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-my-own-color" href="#" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';" > Works <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-my-own-color" href="assets/joyce_resume.pdf" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';"> Resume <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-my-own-color" href="about.html" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';"> About <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="heading d-flex flex-column justify-content-center align-items-center">
+        <img class="sphere_logo" src="assets/sphere_logo.png" alt="Sphere's purple, globe-like logo">
+        <h1>Sphere</h1>
+        <h2 style="font-size: 1rem;">designing mobile interface for online corporate education platform</h2>
+      </div>
+    
+    <div class="intro container d-flex flex-row">
+        <div class="overview">
+            <!-- <h2>Overview</h2> -->
+            <p class="small-point"><a href="https://www.ycombinator.com/companies/sphere" target="_blank">Sphere</a> is an online corporate education startup that aims to improve employees' functional skills by providing them with livestream courses instructed by field experts. In my UI/UX course, each team is tasked to iteratively design a piece of user experience for a startup's product, without seeing the design of their actual product. With a passion for education technology, my team chose Sphere. </p>
+        </div>
+        <div class="basic-info" >
+            <ul class="small-point">
+                <li style="margin:0.2rem">Project Type: course team project</li>
+                <li style="margin:0.2rem">Time: 3 weeks</li>
+                <li style="margin:0.2rem">Role: UX designer</li>
+                <li style="margin:0.2rem">Constraint: the design process was mostly dictated by the course assignment, but we added the research section and iterated the prototype more than required </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="page-section container">
+        <h3 class="section-title text-secondary text-uppercase">Sphere's Product Emphasis</h3>
+        <!-- <p class="small-point">Sphere emphasizes:
+        </p> -->
+        <div class="aspect-list">
+          <div class="aspect">
+              <img class="icon" src="assets/live.png" alt="network of figures">
+              <h4 class="semi-imp">Livestream Lessons</h4>
+          </div>
+          <div class="aspect">
+              <img class="icon" src="assets/organizer.png" alt="network of figures">
+              <h4 class="semi-imp">Organization of Material</h4>
+          </div>
+          <div class="aspect">
+              <img class="icon" src="assets/networking.png" alt="network of figures">
+              <!-- <a href="https://www.flaticon.com/free-icons/teamwork" title="teamwork icons">Teamwork icons created by Becris - Flaticon</a> -->
+              <h4 class="semi-imp">Networking</h4>
+          </div>
+      </div>
+    </div>
+
+    <div class="page-section container">
+        <h3 class="section-title text-secondary text-uppercase">Research - Why Livestream?</h3>
+        <!-- <p class="small-point">To connect Sphere's mission statement to their emphasis on livestream courses, our research found that... 
+        </p> -->
+        <p class="small-point">We looked for literature that discusses the pros and cons of synchronous and asynchronous online teaching, and we found...</p>
+        <p class="big-point">
+            Livestream lessons facilitate learning by fostering an <u style="text-decoration-style:wavy;text-decoration-color:#7D5BA6; text-decoration-thickness:0.25rem">interactive</u> learning enviornment.
+        </p>
+        <p class="ss-point text-secondary text-center">Boulos, Maged N Kamel et al. “A synchronous communication experiment within an online distance learning program: a case study.”</p>
+        <div class="container textbox">
+          <p class="small-point">However, we had some reservations about live streaming, since our research also shows that students in similar professional education programs prefer recorded lessons for time flexibility. 
+          </p>
+        </div>
+        
+        <p class="ss-point text-secondary text-center">Smith, Laura J et al. “Large-Scale Asynchronous Online Interprofessional Learning Experience.”</p>
+        <p class="small-point"> 
+          But, due to the constraint of this project, we cannot discuss this product choice with Sphere. Although unsatisfying, we decided to compromise by incorporating livestreams as well as a library of past recorded lessons.
+        </p>
+    </div>
+
+    <div class="page-section container">
+      <h3 class="section-title text-secondary text-uppercase">"How might we"</h3>
+      <p class="small-point">Summing up these findings, we formed our <i>how might we</i> question:</p>
+      <p class="big-point">
+        How might we create a learning platform that is <u style="text-decoration-style:wavy;text-decoration-color:#7D5BA6; text-decoration-thickness:0.25rem">interactive</u> and <u style="text-decoration-style:wavy;text-decoration-color:#7D5BA6; text-decoration-thickness:0.25rem">intuitive</u> for employees? 
+    </p>
+    <p class="small-point" style="padding-top: 0.7rem;">And a visual representation of what we hope to achieve through our design:</p>
+    <div class="img-container">
+    <img style="width:80%" src="assets/flowchart.png" alt="flowchart of design goals">
+    </div>
+    </div>
+
+    <div class="page-section container">
+      <h3 class="section-title text-secondary text-uppercase">brainstorming & sketching</h3>
+      <p class="small-point">During our brainstorming session, we came up with various possibilities for the three main pages of the mobile interface: home page, course overview page, and chat page.</p>
+
+      <div class="img-container">
+        <a style="width:25%; cursor:zoom-in" href="./assets/sketch1.PNG" target="_blank">
+            <img src="./assets/sketch1.PNG" alt="brainstorm sketch 1">
+        </a>
+        <a style="width:25%; cursor:zoom-in" href="./assets/sketch2.jpg" target="_blank">
+            <img src="./assets/sketch2.jpg" alt="brainstorm sketch 2">
+        </a>
+        <a style="width:25%; cursor:zoom-in" href="./assets/sketch3.jpeg" target="_blank">
+            <img src="./assets/sketch3.jpeg" alt="brainstorm sketch 3">
+        </a>
+        <a style="width:25%;cursor:zoom-in" href="./assets/sketch4.png" target="_blank">
+            <img src="./assets/sketch4.png" alt="brainstorm sketch 4">
+        </a>
+      </div>
+
+      <p class="small-point">Through discussion, we decided to keep these design choices to target Sphere's mission statement:</p>
+            <div class="choice-list">
+              <div class="container textbox">
+                <div class="choice">
+                    <h4 class="semi-imp">Livestream Courses</h4>
+                    <ol class="small-point" style="padding-left:0; margin-left:0">
+                        <bullet>Notify users on the homepage when courses are livestreaming </bullet>
+                        <bullet>Provide users with live transcript and chat during livestream</bullet>
+                    </ol>
+                </div>
+              </div>
+              <div class="container textbox">
+                <div class="choice">
+                    <h4 class="semi-imp">Organization of Material</h4>
+                    <ol class="small-point" style="padding-left:0; margin-left:0">
+                        <bullet>Organize lesson recordings by last viewed and date published </bullet>
+                        <bullet>Provide users with a clear list of assignments in progress both on the homepage and course pages</bullet>
+                        <bullet>Use progress bars to quantify progress when possible </bullet>
+                    </ol>
+                </div>
+              </div>
+              <div class="container textbox">
+                <div class="choice">
+                    <h4 class="semi-imp">Networking</h4>
+                    <ol class="small-point" style="padding-left:0; margin-left:0">
+                        <bullet>Provide information about contact's occupation, employer, and common courses (if applicable) </bullet>
+                    </ol>
+                </div>
+              </div>
+            </div>
+  </div>
+
+  <div class="page-section container">
+    <h3 class="section-title text-secondary text-uppercase">Mockup V1.0</h3>
+    <p class="small-point">With these design choices in mind, we created <a href="https://www.figma.com/file/gWoksOcfzUdoRg4WQ06DZ0/Sphere-LoFi" target="_blank">wireframes</a> and the first version of our mockup:</p>
+    <iframe style="border: 1px solid #DFCFE9; width:100%;height:70ch;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5pyXDKUuQq3LRG3VyRRnbe%2FIterative-Design%3Fpage-id%3D4%253A49%26node-id%3D4%253A126%26starting-point-node-id%3D4%253A62%26scaling%3Dscale-down" allowfullscreen></iframe>
+  </div>
+
+  <div class="page-section container">
+    <h3 class="section-title text-secondary text-uppercase">addressing peer feedback</h3>
+    <p class="small-point">We presented the first version of the mockup to peers, who gave us feedback after completing a task in the prototype.</p>
+    <p class="small-point">Here is a summary of the feedback that we received, and what we did to address them.</p>
+  </div>
+
+    
+
+</body>
