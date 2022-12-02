@@ -25,6 +25,15 @@ table {
 }
 
 /* ========== OUR STYLES ========== */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+
+a{
+    color:#7D5BA6;
+}
+
 b{
     font-weight: 1500;
 }
@@ -128,7 +137,7 @@ li{
 
 .textbox{
     border-radius: 0.7rem;
-    background-color: #DFCFE9;
+    background-color: #FAF2FF;
     padding: 1.5rem;
     /* margin-right:3rem; */
     /* border-left: 2rem; */
@@ -145,10 +154,8 @@ li{
 .choice-list{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
-    /* margin:1rem; */
-    width:90%;
 }
 
 .choice{
@@ -173,4 +180,20 @@ light{
 
 .feedback{
     width: 80%;
+}
+
+
+#skip:link{
+text-decoration: none;
+color:#7D5BA6;
+text-decoration-color:#7D5BA6;
+}
+
+.myFooter{
+    color:rgb(248, 226, 187); 
+    background-color: black; 
+    margin: 0; 
+    border:0;
+    padding: 0.5rem 1rem;
+    font-family: 'Mukta', sans-serif;
 }
