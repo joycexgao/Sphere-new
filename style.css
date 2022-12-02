@@ -162,3 +162,15 @@ bullet{
     padding-inline-start: 1ch;
     margin:0.3rem;
 }
+
+light{
+    display: list-item;
+    list-style-type: "💡";
+    padding-left:0;
+    padding-inline-start: 1ch;
+    margin:0.3rem;
+}
+
+.feedback{
+    width: 80%;
+}
