@@ -7,37 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iterative Design</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Poppins:wght@300;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top myNav" style="background-color: #06171E;">
-        <a class="navbar-brand" href="https://joycexgao.github.io/" style="color:rgb(248, 226, 187)">Joyce Gao</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top myNav" style="background-color: #072827;">
+        <a class="navbar-brand brand" href="https://joycexgao.github.io/" style="color:rgb(248, 226, 187)">Joyce Gao</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon toggler"></span>
         </button>
       
-        <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse right-nav" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
             <li class="nav-item active">
-              <a class="nav-link text-my-own-color" href="https://joycexgao.github.io/" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';" > Works <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="https://joycexgao.github.io/" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';" > Works</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link text-my-own-color" href="assets/joyce_resume.pdf" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';"> Resume <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="assets/joyce_resume.pdf" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';"> Resume</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link text-my-own-color" href="about.html" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';"> About <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="about.html" style="color:rgb(248, 226, 187)" onmouseover="this.style.textDecoration='underline';"onmouseout="this.style.textDecoration='none';"> About </a>
             </li>
           </ul>
         </div>
@@ -65,11 +63,11 @@
     </div>
 
     <div class="page-section container text-center small-point" id="skip">
-      <a href="#final" style="color:#7D5BA6; text-decoration-color:#7D5BA6;">↓ Skip to final prototype ↓ </a>
+      <a href="#final" type="button" class="btn btn-outline-primary">↓ Skip to final prototype ↓</a>
     </div>
     
     <div class="page-section container">
-        <h3 class="section-title text-secondary text-uppercase">Sphere's Product Emphasis</h3>
+        <h3 class="section-title text-muted text-uppercase">Sphere's Product Emphasis</h3>
         <!-- <p class="small-point">Sphere emphasizes:
         </p> -->
         <div class="aspect-list">
@@ -89,25 +87,25 @@
     </div>
 
     <div class="page-section container">
-        <h3 class="section-title text-secondary text-uppercase">Research - Why Livestream?</h3>
+        <h3 class="section-title text-muted text-uppercase">Research - Why Livestream?</h3>
         <p class="small-point">We looked for literature that discusses the pros and cons of synchronous and asynchronous online teaching, and we found...</p>
         <p class="big-point">
             Livestream lessons facilitate learning by fostering an <u style="text-decoration-style:wavy;text-decoration-color:#7D5BA6; text-decoration-thickness:0.25rem">interactive</u> learning enviornment.
         </p>
-        <p class="ss-point text-secondary text-center">Boulos, Maged N Kamel et al. “A synchronous communication experiment within an online distance learning program: a case study.”</p>
+        <p class="ss-point text-muted text-center">Boulos, Maged N Kamel et al. “A synchronous communication experiment within an online distance learning program: a case study.”</p>
         <div class="container textbox">
           <p class="small-point">However, we had some reservations about live streaming, since our research also shows that students in similar professional education programs prefer recorded lessons for time flexibility. 
           </p>
         </div>
         
-        <p class="ss-point text-secondary text-center">Smith, Laura J et al. “Large-Scale Asynchronous Online Interprofessional Learning Experience.”</p>
+        <p class="ss-point text-muted text-center">Smith, Laura J et al. “Large-Scale Asynchronous Online Interprofessional Learning Experience.”</p>
         <p class="small-point"> 
           But, due to the constraint of this project, we cannot discuss this product choice with Sphere. Although unsatisfying, we decided to compromise by incorporating livestreams as well as a library of past recorded lessons.
         </p>
     </div>
 
     <div class="page-section container">
-      <h3 class="section-title text-secondary text-uppercase">"How might we"</h3>
+      <h3 class="section-title text-muted text-uppercase">"How might we"</h3>
       <p class="small-point">Summing up these findings, we formed our <i>how might we</i> question:</p>
       <p class="big-point">
         How might we create a learning platform that is <u style="text-decoration-style:wavy;text-decoration-color:#7D5BA6; text-decoration-thickness:0.25rem">interactive</u> and <u style="text-decoration-style:wavy;text-decoration-color:#7D5BA6; text-decoration-thickness:0.25rem">intuitive</u> for employees? 
@@ -119,7 +117,7 @@
     </div>
 
     <div class="page-section container">
-      <h3 class="section-title text-secondary text-uppercase">brainstorming & sketching</h3>
+      <h3 class="section-title text-muted text-uppercase">brainstorming & sketching</h3>
       <p class="small-point">During our brainstorming session, we came up with various possibilities for the three main pages of the mobile interface: home page, course overview page, and chat page.</p>
 
       <div class="img-container">
@@ -170,13 +168,13 @@
   </div>
 
   <div class="page-section container">
-    <h3 class="section-title text-secondary text-uppercase">Mockup V1.0</h3>
+    <h3 class="section-title text-muted text-uppercase">Mockup V1.0</h3>
     <p class="small-point">With these design choices in mind, we created <a style="color:#7D5BA6; text-decoration-color:#7D5BA6;" href="https://www.figma.com/file/gWoksOcfzUdoRg4WQ06DZ0/Sphere-LoFi" target="_blank">wireframes</a> and the first version of our mockup:</p>
     <iframe style="width:100%;height:70ch;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5pyXDKUuQq3LRG3VyRRnbe%2FIterative-Design%3Fpage-id%3D4%253A49%26node-id%3D4%253A126%26starting-point-node-id%3D4%253A62%26scaling%3Dscale-down" allowfullscreen></iframe>
   </div>
 
   <div class="page-section container">
-    <h3 class="section-title text-secondary text-uppercase">addressing peer feedback</h3>
+    <h3 class="section-title text-muted text-uppercase">addressing peer feedback</h3>
     <p class="small-point">We presented the first version of the mockup to peers, who gave us feedback after completing a task in the prototype.</p>
     <p class="small-point">Here is a summary of the feedback that we received, and what we did to address them.</p>
     <div class="img-container">
@@ -188,7 +186,7 @@
   </div>
 
   <div class="page-section container">
-    <h3 class="section-title text-secondary text-uppercase">more user feedback</h3>
+    <h3 class="section-title text-muted text-uppercase">more user feedback</h3>
     <p class="small-point">After addressing the previous round of feedback, we submitted our <a style="color:#7D5BA6; text-decoration-color:#7D5BA6;" href="https://www.figma.com/proto/5pyXDKUuQq3LRG3VyRRnbe/Iterative-Design?page-id=0%3A1&node-id=191%3A2402&viewport=1601%2C-148%2C0.61&scaling=scale-down&starting-point-node-id=191%3A2402" target="_blank">mockup v2.0</a> to <a style="color:#7D5BA6; text-decoration-color:#7D5BA6;" href="https://www.usertesting.com/" target="_blank">usertesting.com</a>.</p>
     <p class="small-point">
       Unlike our peers, the users who tested our prototype on usertesting.com are all around 30 years of age, which is closer to the demographics of Sphere’s target audience. These users helped us locate problems that did not arise during the first round of user testing.
@@ -205,15 +203,15 @@
     </div>
 
     <div class="page-section container" id="final">
-      <h3 class="section-title text-secondary text-uppercase">mockup v3.0</h3>
+      <h3 class="section-title text-muted text-uppercase">mockup v3.0</h3>
       <p class="small-point">
         After making adjustments based on user feedback, we came to the third version of our mockup.
       </p>
-      <iframe style="width:100%;height:70ch; border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5pyXDKUuQq3LRG3VyRRnbe%2FIterative-Design%3Fpage-id%3D105%253A1580%26node-id%3D191%253A1781%26viewport%3D459%252C-267%252C0.26%26scaling%3Dscale-down%26starting-point-node-id%3D191%253A1688" allowfullscreen></iframe>
+      <!-- <iframe style="width:100%;height:70ch; border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5pyXDKUuQq3LRG3VyRRnbe%2FIterative-Design%3Fpage-id%3D105%253A1580%26node-id%3D191%253A1781%26viewport%3D459%252C-267%252C0.26%26scaling%3Dscale-down%26starting-point-node-id%3D191%253A1688" allowfullscreen></iframe> -->
     </div>
 
     <div class="page-section container">
-      <h3 class="section-title text-secondary text-uppercase">conclusions & lessons</h3>
+      <h3 class="section-title text-muted text-uppercase">conclusions & lessons</h3>
       <bullet class="small-point">
         <b>Feedback is important in making sure that every aspect of the design is intentional.</b> In this project, peer and user feedback for the first two mockups picked out many design choices that were not thoroughly considered from a user perspective.
       </bullet>
@@ -225,7 +223,7 @@
     </div>
 
     <div class="page-section container">
-      <h3 class="section-title text-secondary text-uppercase">Things I would do differently
+      <h3 class="section-title text-muted text-uppercase">Things I would do differently
       </h3>
       <bullet class="small-point">
         If this were a real project commissioned by Sphere, <b>I would inquire more about the livestreaming concept.</b> In our research, although we found evidence in support of livestream lessons, we also found evidence against it, the most important of which is time flexibility. 
@@ -235,7 +233,7 @@
       </bullet>
     </div>
 
-    <h3 class="section-title text-secondary text-uppercase text-center" style="padding: 6rem 0 2rem 0;">Thank you for reading!</h3>
+    <h3 class="section-title text-muted text-uppercase text-center" style="padding: 6rem 0 2rem 0;">Thank you for reading!</h3>
 
     <div class="myFooter">
       @Nov 2022 Joyce Gao
@@ -247,3 +245,6 @@
     
 
 </body>
+
+</html>
+
