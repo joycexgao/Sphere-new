@@ -81,10 +81,16 @@ li{
 
 .intro{
     padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .overview{
-    width:66%;
+    width:60%;
     /* padding-right: 2rem; */
 }
 
@@ -96,7 +102,24 @@ li{
     margin-bottom: 0;
     margin-top: 1rem;
     font-size: 1rem;
+    width: 30%;
 }
+
+@media only screen and (max-width: 700px) {
+    .overview {
+      width: 100%;
+    }
+
+    .basic-info{
+        width: 100%;
+        
+    }
+
+    .info-list{
+        margin: 0;
+        padding: 0;
+    }
+  }
 
 .page-section{
     padding-top: 3rem;
